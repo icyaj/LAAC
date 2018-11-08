@@ -1,0 +1,8 @@
+nav a {
+    color: #fff;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #888;
+    text-decoration: none;
+}
