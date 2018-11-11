@@ -10,3 +10,24 @@ nav a:hover {
     color: #888;
     text-decoration: none;
 }
+nav.navbar.bg-dark {
+    background-color: #222!important;
+}
+.top-splash {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover!important;
+    background-position: center center!important;
+}
+.top-splash h1 {
+    color: #ffffff;
+    text-align: center;
+}
+.content {
+    padding-top: 3%;
+}
+#navbar-logo {
+    font-size: 40px;
+}
