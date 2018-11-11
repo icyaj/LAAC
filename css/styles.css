@@ -31,3 +31,7 @@ nav.navbar.bg-dark {
 #navbar-logo {
     font-size: 40px;
 }
+nav.navbar {
+    transition: padding 0.2s ease;
+    padding: 1rem 1rem;
+}
