@@ -39,6 +39,12 @@ nav.navbar {
     transition: padding 0.2s ease;
     padding: 1rem 1rem;
 }
+
+.author{
+    background-color: #cce6ff;
+    padding: 10px;
+    color: rgb(0, 0, 0)
+}
 footer {
     margin-top: 5%;
     background-color: #3C3C3C;
