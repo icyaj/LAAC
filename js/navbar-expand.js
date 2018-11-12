@@ -11,4 +11,3 @@ function checkScroll() {
 }
 var expanded = true;
 checkScroll();
-

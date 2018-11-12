@@ -35,3 +35,16 @@ nav.navbar {
     transition: padding 0.2s ease;
     padding: 1rem 1rem;
 }
+footer {
+    background-color: #ddd;
+    padding: 2% 0px;
+    color: #555;
+}
+footer a {
+    color: #222;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #888;
+    text-decoration: underline;
+}
