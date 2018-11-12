@@ -66,3 +66,8 @@ footer a:hover {
     background-size: cover!important;
     background-position: center center!important;
 }
+.author-social {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
