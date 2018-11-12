@@ -4,9 +4,11 @@ body {
 	background-color: #D5D5D5;
 	color: #000000 
 }
+a {
+    transition: color 0.2s;
+}
 nav a {
     color: #88BBD6;
-    transition: color 0.2s;
 	font-size: 20px;
 }
 nav a:hover {
@@ -39,8 +41,7 @@ nav.navbar {
     transition: padding 0.2s ease;
     padding: 1rem 1rem;
 }
-
-.author{
+.author-info {
     background-color: #cce6ff;
     padding: 10px;
     color: rgb(0, 0, 0)
@@ -70,4 +71,10 @@ footer a:hover {
     position: absolute;
     bottom: 0;
     text-align: right;
+}
+.author-social a {
+    text-decoration: none;
+}
+.author-social a:hover {
+    text-decoration: none;
 }
