@@ -84,3 +84,14 @@ footer a:hover {
     text-decoration: none;
 	color: #555555;
 }
+@media (max-width: 575px) {
+    .author-info {
+        border-radius: 0px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    .content {
+        padding: 3% 3% 0px 3%;
+    }
+}
