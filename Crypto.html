@@ -23,7 +23,7 @@
                 <!-- NAVBAR LOGO -->
                 <a href="index.html" id="navbar-logo">LAAC</a>
 
-                <!-- NAVBAR TOGGLE FOR MOBILE (HIDDEN ON WIDER SCREENS) -->
+                <!-- NAVBAR TOGGLE FOR MOBILE (HIDDEN ON WIDER  SCREENS) -->
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -66,16 +66,23 @@
             <div class="row content">
                 <h2>How does Cryptography work?</h2>
                 <p>In a general sense, cryptography works by taking a message or piece of data and encrypting it using a key. Typically encryption involves performing a mathematical operation on the key and the data. While it is intuitive to use the same key for encryption and decryption (known as Symmetric Encryption), there is a problem: you need to transfer your key to the recipient.</p>
-                <p>In 1976, Asymmetric Encryption, also known as Diffie-Hellman Encryption after its inventors, was born. It involves two different keys, which are mathematically linked: one can be used to encrypt and the other used to decrypt. The strength is that the decryption key (also known as the public key) cannot be used to work out the encryption key (or private key). Therefore the public key, as suggested by its name, can be distributed as necessary without the private key ever being revealed. This basic concept is the basis for the whole of today's digital security.</p>
+                <p>In 1976, Asymmetric Encryption, also known as Diffie-Hellman Encryption after its inventors, was born. It involves two different keys, which are mathematically linked: one can be used to encrypt and the other used to decrypt. The strength is that the decryption key (also known as the public key) cannot be used to work out the encryption key (or private key). Therefore the public key, as suggested by its name, can be distributed as necessary without the private key ever being revealed. This concept is the basis for the whole of today's digital security.</p>
+                <p>At present, Asymmetric Encryption techniques are the main method of secure communication. However, new paradigms may render these methods useless in the near future: Quantum Computing promises to shake up the landscape of the Internet for good.</p>
+            </div>
+
+            <div class="row content">
+                <h2>The future of Cryptography</h2>
+                <p>The advent of <a href="https://simple.wikipedia.org/wiki/Quantum_computer">Quantum Computing</a> may bring about the end of current cryptography technologies. Quantum Computers' design means that they could attempt every possibility for a given problem simultaneously, meaning a sufficiently powerful quantum computer could theoretically solve any of the popular modern-day encryption algorithms extremely easily. This has resulted in a large research push into a field known as Post-Quantum Cryptography.</p>
+                <p>In short, Post-Quantum Cryptography refers to algorithms that are usable in a world with quantum computing. Symmetric encryption is actually resistant to quantum computing, but that doesn't stop it having the usual drawbacks. Going deeper into PQC is past the scope of this page, though: for more information read the <a href="https://en.wikipedia.org/wiki/Post-quantum_cryptography">Wikipedia page</a>. Also worth looking into is the concept of <a href="https://en.wikipedia.org/wiki/Quantum_cryptography">Quantum Cryptography</a>, a theoretical method of cryptography that quantum computers may enable.</p>
             </div>
 
             <!-- ABOUT THE AUTHOR -->
             <div class="row author-info">
                 <div class="col-md-2">
-                    <div class="author-img" style="background: url('media/magnus.png');"></div>
+                    <div class="author-img" style="background: url('media/BarnabyPhoto.jpg');"></div>
                 </div>
                 <div class="col-md-8">
-                    <h4>LAAC</h4>
+                    <h4>Barnaby Collins</h4>
                     <p>A bunch of cool dudes.</p>
                     <div class="author-social">
                         <a href="https://github.com/barnstorm3r" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
