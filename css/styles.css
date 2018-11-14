@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
 body {
     font-family: "Roboto Condensed", sans-serif;
 	background-color: #D5D5D5;
 	color: #000000 
 }
+
 a {
     transition: color 0.2s;
 }
@@ -18,6 +20,15 @@ nav a:hover {
 nav.navbar.bg-dark {
     background-color: #3C3C3C!important;
 }
+
+.active {
+	color: #ffffff;
+}
+
+navbar.active {
+	color: #ffffff;
+}
+
 .top-splash {
     height: 40vh;
     display: flex;
