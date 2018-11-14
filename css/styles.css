@@ -44,6 +44,7 @@ navbar.active {
 }
 .content {
     padding-top: 3%;
+    text-align: justify;
 }
 #navbar-logo {
     font-size: 40px;
@@ -57,7 +58,8 @@ nav.navbar {
 	border-radius: 25px;
     padding: 10px;
     color: rgb(0, 0, 0);
-	box-shadow: 0px 0px 10px 10px #cccccc; 
+    box-shadow: 0px 0px 10px 10px #cccccc;
+    margin-top: 5%;
 }
 footer {
     margin-top: 5%;
@@ -92,4 +94,15 @@ footer a:hover {
 .author-social a:hover {
     text-decoration: none;
 	color: #555555;
+}
+@media (max-width: 575px) {
+    .author-info {
+        border-radius: 0px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    .content {
+        padding: 3% 3% 0px 3%;
+    }
 }

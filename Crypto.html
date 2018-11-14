@@ -4,16 +4,20 @@
         <!-- BASIC METADATA -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
         <!-- STYLESHEETS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
-        <title>LAAC</title>
+
+		<!-- FONTAWESOME -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+        <title>LAAC: Cryptography</title>
     </head>
     <body>
         <div id="home"></div>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
             <div class="container">
 
                 <!-- NAVBAR LOGO -->
@@ -31,8 +35,8 @@
                         <!-- NAVBAR LINKS: ADD 'active' CLASS TO LINK FOR CURRENT PAGE, AND LINK TO '#home' RATHER THAN THE PAGE -->
                         <li class="nav-item nav-link active"><a href="#home">Cryptography</a></li>
                         <li class="nav-item nav-link"><a href="MedicalApplications.html">Medical Applications</a></li>
-                        <li class="nav-item nav-link"><a href="SolvingProblems.html">Solving Problems</a></li>
-                        <li class="nav-item nav-link"><a href="WannaCryV1.html">WannaCry</a></li>
+                        <li class="nav-item nav-link"><a href="EnvironmentalApplications.html">Environmental Applications</a></li>
+                        <li class="nav-item nav-link"><a href="WeatherPrediction.html">Weather Prediction</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,15 +50,27 @@
         </div>
 
         <!-- ACTUAL CONTENT DIV -->
-        <div class="container content">
-            <div class="row">
+        <div class="container">
+            <div class="row content">
                 <h2>What is Cryptography?</h2>
                 <p>Cryptography is the practice and study of hiding information. It is the science used to try to keep information secret and safe. Modern cryptography is a mix of mathematics, computer science, and electrical engineering. Cryptography is used everywhere in today's world, from ATM (bank) cards to computer passwords and online shopping.</p>
                 <p>When a message is sent using cryptography, it is changed (or encrypted) before it is sent. The method of changing text is called a "code" or, more precisely, a "cipher". The changed text is called "ciphertext". The change makes the message hard to read. Someone who wants to read it must change it back (or decrypt it). How to change it back is a secret. Both the person that sends the message and the one that gets it should know the secret way to change it, but other people should not be able to. Studying the ciphertext to discover the secret is called "cryptanalysis" or "cracking" or sometimes "code breaking".</p>
             </div>
 
+            <div class="row content">
+                <h2>How does Cryptography affect society?</h2>
+                <p>Without cryptography, secure communication would be impossible. For example, it would be impossible to remotely manage your bank funds, use most of the Internet, make non-cash transactions, or communicate private or sensitive information. We rely on cryptography every day but most people take it for granted. It protects us from snooping governments, hackers and malevolent exes.</p>
+                <p>Computational cryptography is particularly useful because it means we can instantly make secure communications. Imagine having to encipher an email by hand on a piece of paper! Computers have allowed us to offload these otherwise inconvenient processes to automation, meaning that we can seamlessly encrypt and decrypt information in an instant and with no interaction with the user. I think it's a good thing that your grandma Doris doesn't have to worry about where she should store her keypair in daily life.</p>
+            </div>
+
+            <div class="row content">
+                <h2>How does Cryptography work?</h2>
+                <p>In a general sense, cryptography works by taking a message or piece of data and encrypting it using a key. Typically encryption involves performing a mathematical operation on the key and the data. While it is intuitive to use the same key for encryption and decryption (known as Symmetric Encryption), there is a problem: you need to transfer your key to the recipient.</p>
+                <p>In 1976, Asymmetric Encryption, also known as Diffie-Hellman Encryption after its inventors, was born. It involves two different keys, which are mathematically linked: one can be used to encrypt and the other used to decrypt. The strength is that the decryption key (also known as the public key) cannot be used to work out the encryption key (or private key). Therefore the public key, as suggested by its name, can be distributed as necessary without the private key ever being revealed. This basic concept is the basis for the whole of today's digital security.</p>
+            </div>
+
             <!-- ABOUT THE AUTHOR -->
-            <div class="row author-info" class="author-info">
+            <div class="row author-info">
                 <div class="col-md-2">
                     <div class="author-img" style="background: url('media/magnus.png');"></div>
                 </div>
