@@ -35,6 +35,14 @@ nav.navbar.bg-dark {
     padding-top: 3%;
     text-align: justify;
 }
+.content a {
+    font-weight: bold;
+    color: #222;
+}
+.content a:hover {
+    color: #444;
+    text-decoration: none;
+}
 #navbar-logo {
     font-size: 40px;
 }
